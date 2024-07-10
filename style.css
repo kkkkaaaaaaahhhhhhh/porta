@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    
+}
+
+.container {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contem-box{
+    background-color: rgba(14, 16, 22, 1);
+    max-width: 700px;
+    min-width: 500px;
+    min-height: 50vh;
+    padding: 2rem;
+    border-radius: 8px;
+    
+}
+
+.contem-box h2{
+    color: white;
+    margin-bottom: 2rem;
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+}
+
+.input-box span{
+    color: white;
+    font-size: 20px;
+}
+
+.input-box input{
+    border-radius: 5px;
+    max-width: 450px;
+    min-width: 400px;
+    max-height: 30vh;
+    min-height: 5vh;
+    margin-bottom: 30px;
+    outline: none;
+    font-size: 18px;
+}
+
+.input-box input::placeholder{
+    color: rgba(0, 0, 0, 0.2);
+}
+
+#redefinir a{
+    font-size: small;
+    padding-left: 275px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.botao input{
+    margin: 2rem auto 0 auto; 
+    display: block;          
+    background: rgba(0, 14, 137, 1);    
+    color: white;            
+    border: none;            
+    padding: 10px 30px;     
+    border-radius: 5px;      
+    cursor: pointer;
+    font-size: 18px;      
+}
+
+.titulo {
+    background-color: rgba(14, 16, 22, 1);
+    margin-top: 2rem;
+    min-height: 5vh;
+    max-height: 5vh;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-left: 10px
+}
+
+.titulo h2 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 5vh;
+}
+
+.cont {
+    display: flex; 
+  }
+  
+  .titulo_esquerda, .titulo_direita {
+    background-color: rgba(14, 16, 22, 1);
+    margin-top: 2rem;
+    min-height: 5vh;
+    border-radius: 15px;
+    width: calc(40% - 5px); 
+    margin-left: 10px; 
+  }
+  
+  .titulo_esquerda h3, .titulo_direita h3 {
+    color: white;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0; 
+  }
+  
+  .titulo_direita {
+    margin-right: 10px;
+    margin-left: 10px;
+    min-width: 59vw;
+  }
+
+  .container_reg {
+    display: flex;
+    align-self: flex-start;
+    
+}
+
+.esquerdo, .direito{
+    background-color: rgba(14, 16, 22, 1);
+    margin-top: 2rem;
+    min-height: 5vh;
+    border-radius: 15px;
+    width: calc(40% - 5px); 
+    margin-left: 10px;
+    height: 77vh;
+     
+}
+
+.mostrar_opcoes {
+    background-color: rgba(14, 16, 22, 1);
+    margin-top: 3rem; /* Margem superior para separação */
+    margin-left: 1px; /* Margem esquerda para alinhar ao lado */
+    min-width: calc(20vw + 40% + 10px); /* Largura suficiente para cobrir ambos os lados */
+    min-height: 63.4vh; /* Altura da outra div */
+    border-radius: 15px;
+    color: white;
+}
+
+.esquerdo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.direito{
+    margin-right: 10px;
+    margin-left: 10px;
+    min-width: 59vw;
+    height: 12vh;
+    margin-bottom: 10px;
+}
+
+.contem_registro span{
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.contem_registro p{
+    margin-bottom: 2rem;
+}
+
+.contem_registro input {
+    background-color: rgba(77, 80, 90, 1);
+    height: 3rem;
+    width: 30vw;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+}
+
+#listbox {
+    margin-right: 10px;
+    margin-left: 10px;
+    min-width: 58vw;
+    background-color: rgba(77, 80, 90, 1);
+    height: 3rem;
+    width: 30vw;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    margin-top: 2rem;
+}
+
+

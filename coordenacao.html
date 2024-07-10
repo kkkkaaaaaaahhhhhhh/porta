@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coordenação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container_coordenacao">
+        
+            <div class="titulo">
+
+                <h2>DIRETORIA E COORDENADORIA</h2>
+
+            </div>
+
+            <div class="cont">
+
+                <div class="titulo_esquerda">
+
+                  <h3>REGISTRO DE TAGS:</h3>
+
+                </div>
+
+                <div class="titulo_direita">
+
+                  <h3>CONSULTAR TAGS:</h3>
+
+                </div>
+
+            </div>
+
+            <div class="container_reg">
+
+                <div class="esquerdo">
+
+                    <div class="contem_registro">
+                
+                        <span>NOME:</span>
+                        <br>
+                        <input type="text">
+                        <p></p>
+                        <span>SOBRENOME:</span>
+                        <br>
+                        <input type="text">
+                        <p></p>
+                        <span>MATÉRIA:</span>
+                        <br>
+                        <input type="text">
+                        <p></p>
+                        <span>CÓDIGO RFID:</span>
+                        <br>
+                        <input type="text">
+        
+                    </div>
+        
+                    <div class="botao">
+                        <input type="submit" value="REGISTRAR">
+                    </div>
+
+                </div>
+
+                
+                <div class="direito">
+
+                    <div class="select">
+                        <form action="/submit" method="post">
+                            <select id="listbox" name="opcoes">
+                                <option value="" disabled selected></option>
+                                <option value="1">Encontrar pessoa cadastrada pelo nome</option>
+                                <option value="2">Encontrar pessoa pelo RFID</option>
+                                <option value="3">Lista de todos</option>
+                            </select>
+                        </form>
+                    </div>
+                    
+                    <div class="mostrar_opcoes">
+        
+                    </div>
+
+                </div>
+    
+        </div>
+
+    </div>
+
+</body>
+</html>
