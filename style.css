@@ -65,8 +65,28 @@ body{
     color: white;
 }
 
-.botao input{
+.container_botao {
+    display: flex;
+}
+
+.botao a{
     margin: 2rem auto 0 auto; 
+    display: inline-block;          
+    background: rgba(0, 14, 137, 1);    
+    color: white;            
+    border: none;            
+    padding: 10px 30px;     
+    border-radius: 5px;      
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 8.5rem;
+    text-decoration: none;
+}
+
+
+.botao_voltar button, .botao_registrar input {
+
+    margin: 2rem; 
     display: block;          
     background: rgba(0, 14, 137, 1);    
     color: white;            
@@ -74,7 +94,11 @@ body{
     padding: 10px 30px;     
     border-radius: 5px;      
     cursor: pointer;
-    font-size: 18px;      
+    font-size: 18px;   
+}
+
+.botao_voltar a{
+    text-decoration: none;
 }
 
 .titulo {
@@ -100,7 +124,7 @@ body{
     display: flex; 
   }
   
-  .titulo_esquerda, .titulo_direita {
+.titulo_esquerda, .titulo_direita {
     background-color: rgba(14, 16, 22, 1);
     margin-top: 2rem;
     min-height: 5vh;
@@ -109,7 +133,7 @@ body{
     margin-left: 10px; 
   }
   
-  .titulo_esquerda h3, .titulo_direita h3 {
+.titulo_esquerda h3, .titulo_direita h3 {
     color: white;
     height: 5vh;
     display: flex;
@@ -118,13 +142,13 @@ body{
     margin: 0; 
   }
   
-  .titulo_direita {
+.titulo_direita {
     margin-right: 10px;
     margin-left: 10px;
     min-width: 59vw;
   }
 
-  .container_reg {
+.container_reg {
     display: flex;
     align-self: flex-start;
     
@@ -141,7 +165,7 @@ body{
      
 }
 
-.mostrar_opcoes {
+.mostrar_opcoes_coordenacao {
     background-color: rgba(14, 16, 22, 1);
     margin-top: 3rem; /* Margem superior para separação */
     margin-left: 1px; /* Margem esquerda para alinhar ao lado */
@@ -197,6 +221,38 @@ body{
     color: white;
     outline: none;
     margin-top: 2rem;
+}
+
+.data, .horarios {
+    background-color: rgba(14, 16, 22, 1);
+    margin-top: 2rem;
+    min-height: 5vh;
+    border-radius: 15px;
+    width: calc(40% - 5px); 
+    margin-left: 10px; 
+    margin-left: 2rem; 
+}
+
+.mostrar_opcoes {
+    display: flex;
+}
+
+.data, .horarios {
+    background-color: rgba(14, 16, 22, 1);
+    margin-top: 3rem;
+    min-height: 5vh;
+    border-radius: 15px;
+    width: calc(40% - 5px); 
+    margin-left: 1px;
+    height: 63vh;
+}
+
+.horarios {
+    width: 900px;
+}
+
+.data {
+    margin-right: 10px;
 }
 
 
